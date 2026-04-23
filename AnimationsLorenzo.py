@@ -57,8 +57,6 @@ class LorenzAttractor(ThreeDScene):
         
         def update_dots(dots):
             for dot, curve in zip(dots, curves):
-                # Тъй като Create анимацията рисува кривата, 
-                # точката трябва да следва текущия край на нарисуваната част
                 dot.move_to(curve.get_end())
         
         dots.add_updater(update_dots)
