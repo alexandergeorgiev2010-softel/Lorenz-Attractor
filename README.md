@@ -2,4 +2,4 @@
 # A visual representation of the Butterfly Effect using Python library Manim and got empowered by 3Blue1Brown and AI
 Only 3 differential equations defining the new coordinates each time. Even though the defining system of where the next point is going to be seem easy, it is unpredictable because it flies all around. As well as this it resembles a butterfly. Not only it resembles but there is also a philosophy behind this - as you can see at first only the pink curve has been visible the first seconds but then the cyan curve showed up too. I set the initial states of the points to be almost identical - only the z - coordinate was differentiating with an epsilon of 0.001. This shows that even tiny changes can lead to significant differences later on.
 
-! [Lorenz Attractor] (LorenzAttractor.gif)
+! [Lorenz Attractor](LorenzAttractor.gif)
